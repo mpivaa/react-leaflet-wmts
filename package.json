@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-wmts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "WMTS TileLayer plugin to react-leaflet",
   "files": [
     "lib/*"
