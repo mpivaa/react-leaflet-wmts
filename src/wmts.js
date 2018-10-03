@@ -49,7 +49,7 @@ export default L.TileLayer.extend({
     var zoom = this._tileZoom;
     var nw = this._crs.project(this._map.unproject(nwPoint, zoom));
     var se = this._crs.project(this._map.unproject(sePoint, zoom));
-    tilewidth = se.x - nw.x;
+    var tilewidth = se.x - nw.x;
     //zoom = this._map.getZoom();
     var ident = this.matrixIds[zoom].identifier;
     var tilematrix = this.wmtsParams.tilematrixSet + ':' + ident;
