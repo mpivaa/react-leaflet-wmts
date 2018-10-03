@@ -1,5 +1,7 @@
 # react-leaflet-wmts
 
+WMTS TileLayer plugin to react-leaflet
+
 Uses https://github.com/mylen/leaflet.TileLayer.WMTS
 
 ## Installing
@@ -25,7 +27,8 @@ function Example(props) {
         tilematrixSet="<wmts-projection>"
         format="image/png",
         transparent={true},
-        opacity={100},
+        opacity={1}
+        {/* ... */}
       />
     </Map>
   );
