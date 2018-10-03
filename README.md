@@ -6,7 +6,7 @@ Uses https://github.com/mylen/leaflet.TileLayer.WMTS
 
 ## Installing
 
-    yarn add react-leaflet-wmts
+    yarn add mpivaa/react-leaflet-wmts
 
 ## Usage
 
