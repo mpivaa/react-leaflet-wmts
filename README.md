@@ -17,7 +17,6 @@ import React from 'react';
 import WMTSTileLayer from 'react-leaflet-wmts';
 import { Map } from 'react-leaflet';
 
-// Then inside react-leaflet Map
 function Example(props) {
   return (
     <Map>
